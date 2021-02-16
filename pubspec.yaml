@@ -1,0 +1,34 @@
+name: filtering_app
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+#  cloud_firestore: ^0.13.5
+#  firebase_auth: ^0.16.0
+  webview_flutter: ^0.3.0
+#  cookie_jar: ^1.0.0
+#  dio: ^3.0.10
+#  dio_cookie_manager: ^1.0.0
+  twitter_login: ^2.1.0
+  english_words: ^3.1.0
+  http: ^0.12.2
+  animated_text_kit: ^3.0.2
+  flutter_webview_plugin: ^0.3.11
+  oauth1: ^1.0.6
+  firebase_auth: ^0.18.3
+  firebase_core: ^0.5.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
